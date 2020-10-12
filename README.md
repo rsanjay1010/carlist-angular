@@ -50,4 +50,13 @@ MongoDB Data: ./src/assets/data.json
  - Clicking on any Car Box will redirect to Car Details Page.
 ```
 
+## Technology Stack
+
+```bash
+Angular 10
+NodeJs
+ExpressJs
+MongoDB
+```
+
 The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
