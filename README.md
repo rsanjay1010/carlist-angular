@@ -48,7 +48,12 @@ MongoDB Data: ./src/assets/data.json
  - Home page show timeline by Quarter
  - Expand any Quarter will load Car list for that Quarter
  - Clicking on any Car Box will redirect to Car Details Page.
+ - Responsive Desing working fine with Mobile, Tablet and Desktop
 ```
+
+## Running Server
+
+https://carlist-angular.herokuapp.com/
 
 ## Technology Stack
 
