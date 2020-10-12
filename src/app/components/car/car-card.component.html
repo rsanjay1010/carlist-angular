@@ -1,0 +1,19 @@
+<a routerLink="car/{{data.index}}">
+  <div class="card">
+    <span class="tag is-info is-light release-info" *ngIf="!isRelease">Upcoming</span>
+    <div class="card-image">
+      <figure class="image is-4by3">
+        <img src="{{data.image}}" alt="image">
+      </figure>
+    </div>
+    <div class="card-content">
+      <p>
+        <strong>{{data.make | titlecase}} {{data.model}}</strong>
+        <br />
+        <small>{{ data.release_date | date: "fullDate" }}</small>
+        <br />
+        <span>{{ data.price | currency : 'USD': 'symbol' : '1.0-0' }} </span>
+
+    </div>
+  </div>
+</a>

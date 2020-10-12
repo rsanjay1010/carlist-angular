@@ -1,0 +1,17 @@
+@import "bulma";
+
+.card {
+  width: calc(100%-10px);
+  margin: 5px;
+}
+
+.release-info {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.image > img {
+  object-fit: contain;
+}

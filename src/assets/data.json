@@ -1,0 +1,249 @@
+[
+  {
+    "index": 1,
+    "make": "Acura",
+    "model": "ILX",
+    "price": 25900,
+    "image": "https://www.acura.com/-/media/Acura-Platform/Non-Vehicle-Pages/homepage/vehicle-lineup/2020/ILX/Acura-2020-A-Spec-ILX-Platinum-White-Pearl-model-line-overlay-xl.jpg",
+    "release_date": {
+      "$date": "2020-03-01T08:00:00Z"
+    },
+    "details": "Loaded with first-class features and boasting supercar-inspired design, the Acura ILX brings distinction to the compact sport sedan.",
+    "specifications": [
+      {
+        "feature": "ENGINE TYPE",
+        "detail": "2.4L Aluminum-Alloy 4-Cylinder"
+      },
+      {
+        "feature": "TRANSMISSION",
+        "detail": "8-Speed Dual-Clutch Transmission"
+      },
+      {
+        "feature": "Valvetrain",
+        "detail": "16-valve, DOHC i-VTEC"
+      },
+      {
+        "feature": "Horsepower @ rpm (SAE net)",
+        "detail": "201 @ 6800"
+      },
+      {
+        "feature": "Torque (lb-ft @ rpm) (SAE net)",
+        "detail": "180 @ 3600"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "make": "acura",
+    "model": "RDX",
+    "image": "https://www.acura.com/-/media/Acura-Platform/Non-Vehicle-Pages/homepage/vehicle-lineup/2021/RDX/2021-Acura-RDX-Homepage-model-line-overlay-xl.jpg",
+    "price": 38200,
+    "release_date": {
+      "$date": "2020-10-01T08:00:00Z"
+    },
+    "details": "The RDX offers a 272-HP86 turbocharged 2.0-liter engine and available Super Handling All-Wheel Drive™ (SH-AWD®). The most sophisticated SH-AWD system yet, the torque-vectoring all-wheel drive system delivers more accurate handling for all road conditions.",
+    "specifications": [
+      {
+        "feature": "ENGINE TYPE",
+        "detail": "Turbo Aluminum-Alloy 2.0L 4-Cylinder"
+      },
+      {
+        "feature": "Valvetrain",
+        "detail": "16-Valve, DOHC VTEC®"
+      },
+      {
+        "feature": "Horsepower @ rpm",
+        "detail": "272 @ 6500"
+      },
+      {
+        "feature": "Torque (lb-ft @ rpm)",
+        "detail": "280 @ 1600-4500"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "make": "acura",
+    "model": "TLX",
+    "image": "https://www.acura.com/-/media/Acura-Platform/Non-Vehicle-Pages/homepage/vehicle-lineup/2021/TLX/TLX_2021_lineup_overlay_XL.jpg",
+    "price": 37500,
+    "release_date": {
+      "$date": "2020-06-01T08:00:00Z"
+    },
+    "details": "The all-new 2021 TLX leads the way in pushing the limits of performance, tech, and design. Every TLX gets the thrills of a 272-HP108 VTEC® Turbo engine and luxurious amenities in an alluring, sculpted body. Customized drive modes, ambient lighting, and available rear-biased Super Handling All-Wheel Drive™ (SH-AWD®) deliver pleasure and performance like never before.",
+    "specifications": [
+      {
+        "feature": "ENGINE TYPE",
+        "detail": "Turbo Aluminum-Alloy 2.0L 4-Cylinder"
+      },
+      {
+        "feature": "Valvetrain",
+        "detail": "16-Valve, DOHC VTEC®"
+      },
+      {
+        "feature": "Horsepower @ rpm",
+        "detail": "272 @ 6500 (SAE Net)"
+      },
+      {
+        "feature": "Torque (lb-ft @ rpm)",
+        "detail": "280 @ 1600-4500 (SAE Net)"
+      },
+      {
+        "feature": "Compression Ratio (:1)",
+        "detail": "9.8:1"
+      },
+      {
+        "feature": "Fuel Tank Capacity",
+        "detail": "15.8 U.S. gallons (60.0 liters)"
+      },
+      {
+        "feature": "Tune-Up Interval",
+        "detail": "No scheduled tune-ups required for 100,000 +/- miles"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "make": "acura",
+    "model": "RLX",
+    "image": "https://www.acura.com/-/media/Acura-Platform/Non-Vehicle-Pages/homepage/vehicle-lineup/2020/RLX/2020_lunar-silver-metallic-rlx-xl.jpg",
+    "price": 54900,
+    "release_date": {
+      "$date": "2020-11-10T08:00:00Z"
+    },
+    "details": "The 3-Motor Sport Hybrid SH-AWD® system shares supercar DNA with the NSX to deliver instant torque and a luxuriously smooth ride. On curves, Sport Hybrid Super Handling All-Wheel Drive™ sends and regenerates power from the rear wheels like no other vehicle in its class. It all adds up to an intuitive, powerful driving experience.",
+    "specifications": [
+      {
+        "feature": "ENGINE TYPE",
+        "detail": "Aluminum-Alloy Direct Injection 3.5L V-6"
+      },
+      {
+        "feature": "Valvetrain",
+        "detail": "24-Valve, SOHC i-VTEC®"
+      },
+      {
+        "feature": "Horsepower @ rpm",
+        "detail": "310 @ 6500"
+      },
+      {
+        "feature": "Torque (lb-ft @ rpm)",
+        "detail": "272 @ 4500"
+      },
+      {
+        "feature": "Compression Ratio (:1)",
+        "detail": "11.5:1"
+      },
+      {
+        "feature": "Fuel Tank Capacity",
+        "detail": "18.5 U.S. gallons (70.0 liters)"
+      },
+      {
+        "feature": "Tune-Up Interval",
+        "detail": "No scheduled tune-ups required for 100,000 +/- miles"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "make": "Honda",
+    "model": "HR-V",
+    "image": "https://automobiles.honda.com/-/media/Honda-Automobiles/Vehicles/2020/HR-V/Trim-Education/Jellybeans/my20-hr-v-trims-specs-lx-jellybean-2x.png",
+    "price": 21020,
+    "release_date": {
+      "$date": "2020-04-10T08:00:00Z"
+    },
+    "details": "Versatility means having it all, including a stylish exterior. Combining an SUV stance with sporty details like redesigned wheels and an available honeycomb grille, the HR-V stands out everywhere—from the boulevard to the campground.",
+    "specifications": [
+      {
+        "feature": "ENGINE TYPE",
+        "detail": "In-Line 4-Cylinder6"
+      },
+      {
+        "feature": "Valvetrain",
+        "detail": "16-Valve SOHC i-VTEC®"
+      },
+      {
+        "feature": "Horsepower @ rpm",
+        "detail": "141 @ 6500 rpm"
+      },
+      {
+        "feature": "Torque (lb-ft @ rpm)",
+        "detail": "127 lb-ft @ 4300 rpm"
+      },
+      {
+        "feature": "Fuel Tank Capacity",
+        "detail": "13.2 gal"
+      },
+      {
+        "feature": "Turning Diameter, Curb-to-Curb",
+        "detail": "37.4 ft"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "make": "Honda",
+    "model": "Civic Sedan",
+    "image": "https://automobiles.honda.com/-/media/Honda-Automobiles/Vehicles/2019/Civic-Sedan/Models-and-Specs/jellybeans/MY19-civic-sedan-lx-ext-jellybean-2x.png",
+    "price": 20800,
+    "release_date": {
+      "$date": "2020-05-10T08:00:00Z"
+    },
+    "details": "The 2020 Civic Sedan features aggressive lines and refined features that make it stand out from the crowd. Signature C-shaped taillights, a sleek profile and a bold Sport trim add to its fierce personality.",
+    "specifications": [
+      {
+        "feature": "ENGINE TYPE",
+        "detail": "In-Line 4-Cylinder6"
+      },
+      {
+        "feature": "Valvetrain",
+        "detail": "16-Valve DOHC i-VTEC®"
+      },
+      {
+        "feature": "Horsepower @ rpm",
+        "detail": "158 @ 6500 rpm"
+      },
+      {
+        "feature": "Torque (lb-ft @ rpm)",
+        "detail": "138 lb-ft @ 4200 rpm"
+      },
+      {
+        "feature": "Fuel Tank Capacity",
+        "detail": "12.39 gal"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "make": "Honda",
+    "model": "Civic Si Sedan",
+    "image": "https://automobiles.honda.com/-/media/Honda-Automobiles/Vehicles/2019/Civic-Sedan/Models-and-Specs/jellybeans/MY19-civic-sedan-lx-ext-jellybean-2x.png",
+    "price": 25200,
+    "release_date": {
+      "$date": "2020-07-10T08:00:00Z"
+    },
+    "details": "The Civic Si Sedan turns heads with its body-colored spoiler, slick 18-inch alloy wheels and unmistakable Si badge. Step inside to find creature comforts like heated front seats, and convenient technology, including an electric parking brake.",
+    "specifications": [
+      {
+        "feature": "ENGINE TYPE",
+        "detail": "In-Line 4-Cylinder6"
+      },
+      {
+        "feature": "Valvetrain",
+        "detail": "16-Valve DOHC i-VTEC®"
+      },
+      {
+        "feature": "Horsepower @ rpm",
+        "detail": "205 @ 5700 rpm"
+      },
+      {
+        "feature": "Torque (lb-ft @ rpm)",
+        "detail": "138 lb-ft @ 4200 rpm"
+      },
+      {
+        "feature": "Fuel Tank Capacity",
+        "detail": "12.39 gal"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+<div class="card ">
+  <header class="card-header card-header-title">
+    Q{{quarter}} {{year}}
+    <button class="button is-white expand-button" (click)="toggleContent()" [ngClass]="{ 'is-loading': isLoading }">
+      <fa-icon [icon]="faChevronDown" *ngIf="!expand"></fa-icon>
+      <fa-icon [icon]="faChevronUp" *ngIf="expand"></fa-icon>
+    </button>
+  </header>
+  <div class="card-content collapse" [ngClass]="{ expand: expand && !isLoading }">
+    <ul class="content list">
+
+      <ng-container *ngIf="carlist.length > 0">
+        <app-car-card [data]="car" class="list-item" *ngFor="let car of carlist"></app-car-card>
+      </ng-container>
+      <div *ngIf="!isLoading && carlist.length === 0" class="list-error error-text">
+        Sorry, No Information Available
+      </div>
+    </ul>
+  </div>
+  <footer class="card-footer" *ngIf="expand">
+    <button class="button is-white is-text card-header-title" (click)="toggleContent()">
+      <fa-icon [icon]="faChevronUp"></fa-icon>
+    </button>
+  </footer>
+</div>

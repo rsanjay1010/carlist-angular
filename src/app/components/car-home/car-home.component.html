@@ -1,0 +1,19 @@
+<section class="section" *ngIf="!!data">
+
+  <p class="title is-1">{{data.make | titlecase}}</p>
+  <p class="subtitle is-5">{{data.model}}</p>
+  <p class="subtitle is-6">Price: {{ data.price | currency : 'USD': 'symbol' : '1.0-0' }}</p>
+
+  <p class="subtitle is-6">{{ data.details }}</p>
+  <div class="container box">
+    <p class="title">Specifications</p>
+    <div>
+      <div class="specs-content columns is-multiline">
+        <p class="column is-12-mobile is-6-tablet is-3-desktop" *ngFor="let spec of data.specifications">
+          <strong>{{spec.feature | uppercase}}<br></strong>
+          {{spec.detail}}</p>
+
+      </div>
+    </div>
+  </div>
+</section>
