@@ -1,17 +1,15 @@
-# CarlistAngular
+# Carlist Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Run App in Local Envirornment
-
 ```bash
 npm install
 npm start
 ```
+
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Start Server in Local
 
@@ -27,16 +25,29 @@ npm run client
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```bash
+npm run build
+```
 
-## Running unit tests
+## File Structure
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+BE Code: ./routes
+    APIs:
+    - getCarDetails/:id  : get car details by ID
+    - getListByQuarter/:year/:quarter : get car list of provided year and quarter
 
-## Running end-to-end tests
+FE Code: ./src
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+MongoDB Data: ./src/assets/data.json
+```
 
-## Further help
+## Features
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```bash
+ - Home page show timeline by Quarter
+ - Expand any Quarter will load Car list for that Quarter
+ - Clicking on any Car Box will redirect to Car Details Page.
+```
+
+The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
